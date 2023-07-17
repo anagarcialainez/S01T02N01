@@ -5,7 +5,7 @@ public class Producto {
 	private String nombre;
 	private double precio;
 	
-	//constructor
+	//constructor.
 	public Producto(String nombre, double precio) {
 		this.nombre = nombre;
 		this.precio = precio;

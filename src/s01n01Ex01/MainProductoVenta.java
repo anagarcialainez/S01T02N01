@@ -49,7 +49,7 @@ public class MainProductoVenta {
 
 }
 
-/*
+/*Ejercicio
  * Crea una clase llamada "Producto" con los atributos nombre y precio, y otra
  * clase llamada "Venta". Esta clase tiene por atributos una colección de
  * productos y el precio total de la venta. La clase "Venta", tiene un método

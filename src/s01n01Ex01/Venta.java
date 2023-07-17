@@ -3,7 +3,7 @@ package s01n01Ex01;
 import java.util.ArrayList;
 
 public class Venta {
-	// Atributos
+	// Atributos.
 	ArrayList<Producto> listaProductos;
 	private float precioTotalVenta;
 
