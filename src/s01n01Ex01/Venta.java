@@ -4,10 +4,11 @@ import java.util.ArrayList;
 
 public class Venta {
 	// Atributos.
-	ArrayList<Producto> listaProductos;
+	private ArrayList<Producto> listaProductos;
 	private float precioTotalVenta;
 
 	// constructor
+	/*public Venta(){listaProductos = new ArrayList<Producto>();}*/
 	public Venta(ArrayList<Producto> listaProductos) {
 		this.listaProductos = listaProductos;
 	}

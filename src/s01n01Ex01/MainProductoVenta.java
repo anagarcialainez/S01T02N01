@@ -8,7 +8,7 @@ public class MainProductoVenta {
 
 	public static void main(String[] args) {
 		int codigo;
-
+		
 		Producto producto1 = new Producto("Banana", 1.29);
 		Producto producto2 = new Producto("Aguacate", 3);
 		Producto producto3 = new Producto("Sandia", 1);
@@ -40,7 +40,7 @@ public class MainProductoVenta {
 		System.out.println("-----------------------------------");
 		
 		try {
-			System.out.println(venta.listaProductos + "\n"
+			System.out.println(venta.getListaProductos() + "\n"
 					+ venta.calcularTotal());
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
